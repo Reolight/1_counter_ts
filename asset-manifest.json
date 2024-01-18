@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/reolight.github.io/1_counter_ts/static/css/main.4a7f1303.css",
-    "main.js": "/reolight.github.io/1_counter_ts/static/js/main.c569be93.js",
-    "static/js/496.5de4894f.chunk.js": "/reolight.github.io/1_counter_ts/static/js/496.5de4894f.chunk.js",
-    "index.html": "/reolight.github.io/1_counter_ts/index.html",
-    "main.4a7f1303.css.map": "/reolight.github.io/1_counter_ts/static/css/main.4a7f1303.css.map",
-    "main.c569be93.js.map": "/reolight.github.io/1_counter_ts/static/js/main.c569be93.js.map",
-    "496.5de4894f.chunk.js.map": "/reolight.github.io/1_counter_ts/static/js/496.5de4894f.chunk.js.map"
+    "main.css": "/1_counter_ts/static/css/main.4a7f1303.css",
+    "main.js": "/1_counter_ts/static/js/main.b1c0c9e6.js",
+    "static/js/496.5de4894f.chunk.js": "/1_counter_ts/static/js/496.5de4894f.chunk.js",
+    "index.html": "/1_counter_ts/index.html",
+    "main.4a7f1303.css.map": "/1_counter_ts/static/css/main.4a7f1303.css.map",
+    "main.b1c0c9e6.js.map": "/1_counter_ts/static/js/main.b1c0c9e6.js.map",
+    "496.5de4894f.chunk.js.map": "/1_counter_ts/static/js/496.5de4894f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a7f1303.css",
-    "static/js/main.c569be93.js"
+    "static/js/main.b1c0c9e6.js"
   ]
 }
