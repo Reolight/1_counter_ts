@@ -1,7 +1,7 @@
 {
   "name": "1_counter_ts",
   "version": "1.0.1",
-  "homepage": "reolight.github.io/1_counter_ts",
+  "homepage": "https://reolight.github.io/1_counter_ts/",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
