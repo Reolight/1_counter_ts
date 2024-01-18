@@ -14,12 +14,13 @@ import LoginSuccessfulMst from "./views/LoginSuccessfulMst";
 import NotFound from "./views/NotFound";
 import { createHashRouter } from "react-router-dom";
 
+const homepage: string = '1_counter_ts'
 /**
  * Определения роутов в приложении
  */
 export const router = createHashRouter([
   {
-    path: "/",
+    path: homepage,
     element: <App />,
     errorElement: <NotFound />,
     children: [
