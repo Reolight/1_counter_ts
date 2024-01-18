@@ -10,7 +10,7 @@ import Sidebar from "./Sidebar";
 function App() {
   return (
     <>
-      <GridLayout cols={[{ width: 250 }, {}]}>
+      <GridLayout cols={[{ width: 250 }, { width: '' }]}>
         <GridLayoutItem col={1}>
           <Sidebar />
         </GridLayoutItem>
