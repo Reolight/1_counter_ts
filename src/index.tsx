@@ -4,7 +4,7 @@ import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 import "@progress/kendo-theme-default/dist/all.css";
 import { RouterProvider } from "react-router-dom";
-import { router } from "./brouserRouter";
+import { router } from "./Router";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

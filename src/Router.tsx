@@ -12,12 +12,12 @@ import LoginFormik from "./views/LoginFormik";
 import LoginSuccessful from "./views/LoginSuccessful";
 import LoginSuccessfulMst from "./views/LoginSuccessfulMst";
 import NotFound from "./views/NotFound";
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 
 /**
  * Определения роутов в приложении
  */
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
     element: <App />,
