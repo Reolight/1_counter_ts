@@ -1,0 +1,46 @@
+.input-field {
+  max-width: 500px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: gray;
+}
+
+.input-field:focus {
+  outline-color: black;
+  outline-width: 0;
+  transition: outline-color 100ms linear, outline-width 100ms linear;
+}
+
+.default-margin {
+  margin: 4px;
+}
+
+.margin-right {
+  margin-right: 4px;
+}
+
+.required::after{
+  content: ' *';
+  color: red;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+}
+
+.submit { 
+  background-color: rgb(153, 230, 255);
+  width: 100px;
+  height: 33px;
+}
+
+.submit:hover {
+  background-color: rgb(153, 230, 255);
+  transition: background-color 0.3s linear;
+}
+
+.submit:active {
+  background-color: rgb(117, 117, 196);
+  transition: background-color 0.3s linear;
+}

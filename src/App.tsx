@@ -2,6 +2,8 @@ import { Outlet } from "react-router-dom";
 import "./App.css";
 import { GridLayout, GridLayoutItem } from "@progress/kendo-react-layout";
 import Sidebar from "./Sidebar";
+import { Suspense } from "react";
+import Loading from "@views/Loading";
 
 /**
  * Главный компонент, который добавляет боковое меню всем дочерним элементам
@@ -10,14 +12,16 @@ import Sidebar from "./Sidebar";
 function App() {
   return (
     <>
-      <GridLayout cols={[{ width: 250 }, { width: '' }]}>
+      <GridLayout cols={[{ width: 250 }, { width: ''}]}>
         <GridLayoutItem col={1}>
           <Sidebar />
         </GridLayoutItem>
 
-        <GridLayoutItem col={2}>
-          <Outlet />
-        </GridLayoutItem>
+        <Suspense fallback={<Loading /> }>
+          <GridLayoutItem col={2}>
+            <Outlet />
+          </GridLayoutItem>
+        </Suspense>
       </GridLayout>
     </>
   );

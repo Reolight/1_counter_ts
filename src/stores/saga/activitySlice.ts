@@ -1,5 +1,5 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
-import { Activity } from "../../types/ActivityTypes";
+import { Activity } from "../../common/types/ActivityTypes";
 
 /**
  * Состояние загрузки activity

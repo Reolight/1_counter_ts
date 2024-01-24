@@ -1,18 +1,11 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { ILoginState } from "../../types/LoginTypes";
-
-/**
- * Тип payload для Action, который содержит данные для обновления хранилища
- */
-export interface UpdatePayload {
-  email: string;
-  password: string;
-}
+import { LoginState } from "../../common/types/LoginTypes";
+import { UpdatePayload } from "./types/Payloads";
 
 /**
  * Начальное состояние для хранилища
  */
-const initialLoginState: ILoginState = {
+const initialLoginState: LoginState = {
   email: "",
   password: "",
 };

@@ -7,19 +7,19 @@ import { createContext, useContext } from "react";
  */
 const LoginModel = types
   .model({
-    email: types.string,
-    password: types.string,
+    email: types.maybe(types.string),
+    password: types.maybe(types.string),
     logged: false,
   })
   .actions((self) => ({
-    login(email: string, password: string) {
+    login(email?: string, password?: string) {
       self.email = email;
       self.password = password;
       self.logged = true;
     },
     clear() {
-      self.email = "";
-      self.password = "";
+      self.email = undefined;
+      self.password = undefined;
       self.logged = false;
     },
   }));
@@ -27,10 +27,7 @@ const LoginModel = types
 /**
  * Начальное состояние модели входа
  */
-let initialState = LoginModel.create({
-  email: "",
-  password: "",
-});
+let initialState = LoginModel.create();
 
 /**
  * Хранилище для созданной модели входа
