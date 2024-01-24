@@ -1,6 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES2016",
+    "paths": {
+      "@containers/*" : ["./src/components/containers/*"],
+      "@views/*": ["./src/components/views//*"],
+      "@stores/*": ["./src/stores/*"],
+      "@common/*" : ["./src/common/*"]
+    },
     "lib": [
       "dom",
       "dom.iterable",

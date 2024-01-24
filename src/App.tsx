@@ -4,6 +4,7 @@ import { GridLayout, GridLayoutItem } from "@progress/kendo-react-layout";
 import Sidebar from "./Sidebar";
 import { Suspense } from "react";
 import Loading from "@views/Loading";
+import React from "react";
 
 /**
  * Главный компонент, который добавляет боковое меню всем дочерним элементам
