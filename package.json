@@ -80,7 +80,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "craco start",
-    "build": "craco build",
+    "build": "craco build && shx cp build/index.html build/404.html",
     "test": "craco test"
   },
   "eslintConfig": {
@@ -103,6 +103,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
-    "sass": "^1.69.7"
+    "sass": "^1.69.7",
+    "shx": "^0.3.4"
   }
 }
